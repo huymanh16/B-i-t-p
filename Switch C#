@@ -1,0 +1,82 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SwitchC
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int day = 4;
+            switch (day)
+            {
+                case 1:
+                    Console.WriteLine("thu1");
+                    break;
+                case 2:
+                    Console.WriteLine("thu2");
+                    break;
+                case 3:
+                    Console.WriteLine("thu4");
+                    break;
+                case 4:
+                    Console.WriteLine("thu5");
+                    break;
+                case 5:
+                    Console.WriteLine("thu6");
+                    break;
+            }
+
+
+            int moth = 7;
+            switch (moth)
+            {
+                case 8:
+                    Console.WriteLine("thang 1");
+                    break;
+                case 9:
+                    Console.WriteLine("thang 2");
+                    break;
+                case 10:
+                    Console.WriteLine("thang3");
+                    break;
+                default:
+                    Console.WriteLine("khong co trong nhưng thang tren");
+                    break;
+            }
+
+
+            int i = 1;
+            while (i < 6)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+
+            for (int b = 2; b < 3; b++)
+            {
+                Console.WriteLine(b);
+            }
+
+
+
+
+
+            for (int a = 1; a <= 2; ++a)
+            {
+                Console.WriteLine("Outer: " + i);  // Executes 2 times
+
+                // Inner loop
+                for (int j = 1; j <= 3; j++)
+                {
+                    Console.WriteLine(" Inner: " + j);  // Executes 6 times (2 * 3)
+                }
+            }
+
+            Console.ReadKey();
+        }
+    }
+}
