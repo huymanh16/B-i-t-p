@@ -1,0 +1,46 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace huymanh
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(Math.Max(5, 10));
+
+            Console.WriteLine(Math.Min( 2, 4));
+
+            Console.WriteLine(Math.Sqrt(9));
+
+            Console.WriteLine(Math.Abs(-7.8));
+
+            Console.WriteLine(Math.Round(5.555));
+
+            string txt = "qưertyuioasdfghjkl";
+            Console.WriteLine("nguyen huy manh " + txt.Length);
+
+            string txt1 = "nguyen huy Manh";
+            string txt2 = " HUY MANH";
+            Console.WriteLine(txt1.ToUpper());
+            Console.WriteLine(txt2.ToLower());
+
+
+            string x = "10";
+            string y = "20";
+            string z = x + y;
+            Console.WriteLine(z);
+
+            string my = "huymanh";
+            Console.WriteLine(my[1]);
+
+            string my2 = "nguyen huy";
+            Console.WriteLine(my2.IndexOf("e"));
+
+            Console.ReadKey();
+        }
+    }
+}
