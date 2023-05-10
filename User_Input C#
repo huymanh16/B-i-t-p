@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace User_Input
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.ReadLine();
+            Console.Write("Name");
+            Console.ReadLine();
+            Console.Write("How oul are you");
+            Console.ReadLine();
+
+
+
+            Console.WriteLine("Where are you");
+            Console.ReadLine();
+
+            Console.WriteLine("Ban hoc ơ dau");
+            Console.ReadLine();
+
+            Console.WriteLine("ban học nganh gi");
+            Console.ReadLine();
+
+            Console.Write("ban co so thich gi");
+
+
+
+            Console.ReadKey();
+        }
+    }
+}
