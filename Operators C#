@@ -1,0 +1,63 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Operators
+{
+    class Program
+    {
+        static void Main(string[] args)
+            
+        {
+            int sum1 = 100 + 150;
+            int sum2 = 150 + sum1;
+            int sum3 = sum1 + sum2;
+
+            Console.WriteLine(sum1);
+            Console.WriteLine(sum2);
+            Console.WriteLine(sum3);
+
+            int x = 3;
+            int y = 4;
+            Console.WriteLine(x + y);
+
+            int a = 3;
+            int b = 4;
+            Console.WriteLine(a * b);
+
+            int c= 3;
+            int d= 4;
+            Console.WriteLine(c / d);
+            int e= 3;
+            int f= 4;
+            Console.WriteLine(e % f);
+
+            int s = 15;
+            s++;
+            Console.WriteLine(s);
+
+            int h = 20;
+             h += 10;
+            Console.WriteLine(h);
+
+
+            int k = 10;
+            Console.WriteLine(k);
+
+
+            int x1 = 6;
+            int x2 = 7;
+            Console.WriteLine(x1 < x2);
+
+
+
+            Console.WriteLine(Math.Max(5, 10));
+
+
+            Console.ReadKey();
+
+        }
+    }
+}
