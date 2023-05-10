@@ -1,0 +1,56 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BoolearC
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 3;
+            int y = 4;
+            Console.WriteLine(x < y);
+
+            int Manh = 10;
+            int Hung = 5;
+            Console.WriteLine(Manh >= Hung);
+            
+
+            int myAge = 25;
+            int votingAge = 18;
+
+            if (myAge >= votingAge)
+            {
+                Console.WriteLine("Old enough to vote!");
+            }
+            else
+            {
+                Console.WriteLine("Not old enough to vote.");
+            }
+
+
+                int my = 20;
+                if (my > 30) 
+                {
+                    Console.WriteLine("Good Day");
+                }
+                else if (my > 10) 
+                {
+                    Console.WriteLine("Not Good Day");
+                }
+                else
+                {
+                    Console.WriteLine("Day Good");
+                }
+
+               
+
+            
+            Console.ReadKey();
+
+        }
+    }
+}
