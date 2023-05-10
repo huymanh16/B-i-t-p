@@ -1,0 +1,60 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Chuoi_string
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string myName = "Huy Manh";
+            Console.WriteLine( "Ten cua toi la:" +   myName);
+            string greeting = "Nice to meet you, I love you to";
+            Console.WriteLine(greeting);
+
+            string xtx = "asdfghjkzxcvbnm";
+            Console.WriteLine("huy manh" + xtx.Length);
+
+
+            string txt1 = "huymanh";
+            Console.WriteLine(txt1.ToUpper());
+            string txt2 = "HUY MANH";
+            Console.WriteLine(txt2.ToLower());
+
+
+
+            string firstName = "Nguyen Huy";
+            string lastName = "Manh";
+            string fullname = firstName + lastName;
+            Console.WriteLine(fullname);
+
+            string first = "Huy";
+            String last = "Manh";
+            string Name = string.Concat(last, first);
+            Console.WriteLine(Name);
+
+            int myNum = 100;
+            int myNume1 = 200;
+            Console.WriteLine(myNum + myNume1);
+            string myNum2 = "10";
+            string myNume3 = "20";
+            Console.WriteLine(myNum2 + myNume3);
+
+
+            string myN = "Ronaldo";
+            Console.WriteLine(myN[0]);
+
+            string myString = "Messi";
+            Console.WriteLine(myString.IndexOf("M"));
+
+            string Name1=" Hom qua toi co di da bóng va gạp duoc \"Ronaldo\" sau do toi xin chup anh";
+            Console.WriteLine(Name1);
+
+            Console.ReadKey();
+
+        }
+    }
+}
